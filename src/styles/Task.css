@@ -1,0 +1,27 @@
+.task {
+    margin-top: 20px;
+    text-overflow: ellipsis;
+}
+
+.task__button {
+    padding: 6px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.task__code {
+    color: white; 
+}
+
+.task__pre {
+    white-space: pre;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    overflow: auto;
+    background: #000;
+    margin-top: 40px;
+    
+}

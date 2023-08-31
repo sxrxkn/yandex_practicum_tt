@@ -1,0 +1,29 @@
+.header {
+    font-weight: 700;
+    width: 86%;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation_active-link a{
+    color: blue;
+}
+
+.header__nav li:hover{
+    scale: 1.1;
+}
