@@ -13,15 +13,13 @@ function Header({ location }: HeaderProps) {
         <nav>
           <ul className="header__nav">
             <li
-              className={`${location === "/" ? "navigation_active-link" : ""}`}
-            >
+              className={`${location === "/" ? "navigation_active-link" : ""}`}>
               <Link to={"/"}>Домашняя страница</Link>
             </li>
             <li
               className={`${
                 location === "/task" ? "navigation_active-link" : ""
-              }`}
-            >
+              }`}>
               <Link to={"/task"}>Задание</Link>
             </li>
           </ul>
